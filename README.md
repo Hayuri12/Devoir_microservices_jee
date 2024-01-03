@@ -25,11 +25,24 @@ Screenshots:
 
 * Afficher une commande par son "ID"
   ![list by id](https://github.com/Hayuri12/Devoir_microservices_jee/assets/105930314/7955a502-99df-44de-bfab-074671e26dd7)
+  
 
 * Supprimer une commande via son "ID"
   ![delete cmd by id](https://github.com/Hayuri12/Devoir_microservices_jee/assets/105930314/60724fcc-7e17-4272-b37a-367f414c846e)
-  => Au niveau de la console
+  
+ * => Au niveau de la console
 ![log info for delete](https://github.com/Hayuri12/Devoir_microservices_jee/assets/105930314/54061862-f2e7-4232-920c-4de14101305d)
+
+* Afficher l'état de santé du microservice-commandes
+![actuator health](https://github.com/Hayuri12/Devoir_microservices_jee/assets/105930314/4af182ef-d1a7-4357-ada2-1deed97f1e6f)
+
+*  Vérifier que les trois microservice Commande, Produit et Zuul sont enregistrés au niveau de Eureka
+   ![eureka](https://github.com/Hayuri12/Devoir_microservices_jee/assets/105930314/e4b73af7-1f48-430e-937c-71aa8a68512e)
+
+* Accéder directement au microservice commandes en passant par le Gateway Zuul
+  ![zuul](https://github.com/Hayuri12/Devoir_microservices_jee/assets/105930314/806de201-6751-4608-82c3-b6f11fb9abd8)
+
+
 
 
   
