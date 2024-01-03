@@ -1,16 +1,17 @@
 # Devoir_microservices_jee
 
-Ce projet a été développé par Hajar Tarrih & Lina Abousalim 5iir2
+Ce projet a Ã©tÃ© dÃ©veloppÃ© par Hajar Tarrih & Lina Abousalim 5iir2
 
-Objectifs : 
-* Use cas 1 : 
-1- Créer un microservice commande avec sa configuration gérée au niveau de Spring Cloud et Github
+ObjectifsÂ : 
+* Use cas 1Â :
+  
+1- CrÃ©er un microservice commande avec sa configuration gÃ©rÃ©e au niveau de Spring Cloud et Github
 2- Appliquer le Spring Actuator
-3- Personnaliser le service « health »  
+3- Personnaliser le service Â«Â healthÂ Â»  
 
-* Use cas 2 :
+* Use cas 2Â :
 
-1- Créer un autre microservice produits
-2- Enregistrer les deux microservices auprès de Eureka
-3- Implémenter une API Gateway comme point d’accès unique à l’application (Zuul API Gateway)
-4- Simuler un Timeout d’un des deux microservices, et implémenter un mécanisme de de contournement pour protéger le microservice appelant avec Hystrix.
+1- CrÃ©er un autre microservice produits
+2- Enregistrer les deux microservices auprÃ¨s de Eureka
+3- ImplÃ©menter une API Gateway comme point dâ€™accÃ¨s unique Ã  lâ€™application (Zuul API Gateway)
+4- Simuler un Timeout dâ€™un des deux microservices, et implÃ©menter un mÃ©canisme de de contournement pour protÃ©ger le microservice appelant avec Hystrix.
