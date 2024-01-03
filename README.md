@@ -17,23 +17,43 @@ Objectifs :
 * Simuler un Timeout d’un des deux microservices, et implémenter un mécanisme de de contournement pour protéger le microservice appelant avec Hystrix.
 
 Screenshots: 
-* Visualisation de la base de donnée h2 du commande : 
+
+** La configuration des microservices via le microservice "config-server" comme étant un serveur de configuration : 
+
+
+![image](https://github.com/Hayuri12/Devoir_microservices_jee/assets/105930314/ca9bfa30-947b-48d1-8f67-c611e323ab3d)
+
+* Au niveau du github " https://github.com/Hayuri12/config-repo.git ": 
+                                         
+![image](https://github.com/Hayuri12/Devoir_microservices_jee/assets/105930314/fb629b77-1f6f-49fa-a964-68efd2bf56b4)
+
+
+
+
+
+* Visualisation de la base de donnée h2 du commande :
+  
 ![h2 console commandes](https://github.com/Hayuri12/Devoir_microservices_jee/assets/105930314/d3ac10e5-01e4-45b8-a41f-7e7fe5d64a8c)
 
 * Lister toutes les commandes avec la propriété personnalisé "mes-config-ms.commandes-last = 10"
+  
   ![list all cmds](https://github.com/Hayuri12/Devoir_microservices_jee/assets/105930314/316bac65-991f-4598-82b7-bb7f1eea2241)
 
 * Afficher une commande par son "ID"
+  
   ![list by id](https://github.com/Hayuri12/Devoir_microservices_jee/assets/105930314/7955a502-99df-44de-bfab-074671e26dd7)
   
 
 * Supprimer une commande via son "ID"
+  
   ![delete cmd by id](https://github.com/Hayuri12/Devoir_microservices_jee/assets/105930314/60724fcc-7e17-4272-b37a-367f414c846e)
   
- * => Au niveau de la console
+ * Au niveau de la console
+   
 ![log info for delete](https://github.com/Hayuri12/Devoir_microservices_jee/assets/105930314/54061862-f2e7-4232-920c-4de14101305d)
 
 * Afficher l'état de santé du microservice-commandes
+  
 ![actuator health](https://github.com/Hayuri12/Devoir_microservices_jee/assets/105930314/4af182ef-d1a7-4357-ada2-1deed97f1e6f)
 
 *  Vérifier que les trois microservice Commande, Produit et Zuul sont enregistrés au niveau de Eureka
